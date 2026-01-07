@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ### 1. Download changelogs
 
 ```bash
-python download_qgis_zips.py
+python3 download_qgis_zips.py
 ```
 
 This script:
@@ -41,7 +41,7 @@ This script:
 ### 2. Extract features
 
 ```bash
-python extract_features_from_zips.py
+python3 extract_features_from_zips.py
 ```
 
 This script:
