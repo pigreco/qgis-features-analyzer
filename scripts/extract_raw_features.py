@@ -6,6 +6,13 @@ Reads .md files inside the ZIPs and extracts raw data without normalization:
 - Category
 - Developer
 - Funder
+
+Script per estrarre informazioni grezze dai file ZIP dei changelog di QGIS.
+Legge i file .md all'interno degli ZIP ed estrae i dati grezzi senza normalizzazione:
+- Nome della funzionalità
+- Categoria
+- Sviluppatore
+- Finanziatore
 """
 
 import os

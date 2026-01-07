@@ -2,6 +2,9 @@
 """
 Script to extract developers and their associated companies from QGIS features CSV.
 Analyzes the developed_by and funded_by fields to create a mapping of developers to companies.
+
+Script per estrarre gli sviluppatori e le aziende associate dalle funzionalità di QGIS CSV.
+Analizza i campi developed_by e funded_by per creare una mappatura degli sviluppatori alle aziende.
 """
 
 import csv

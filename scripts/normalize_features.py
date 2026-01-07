@@ -2,6 +2,9 @@
 """
 Script to normalize QGIS features data from raw CSV.
 Reads the raw CSV file and applies normalization rules to developer names.
+
+Script per normalizzare i dati delle funzionalità QGIS dal CSV grezzo.
+Legge il file CSV grezzo e applica regole di normalizzazione ai nomi degli sviluppatori.
 """
 
 import csv

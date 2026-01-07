@@ -2,6 +2,9 @@
 """
 Script per scaricare gli archivi ZIP dalle pagine di changelog di QGIS
 Versioni: dalla 3.0 alla 3.44
+
+Script to download ZIP archives from QGIS changelog pages
+Versions: from 3.0 to 3.44
 """
 
 import os
