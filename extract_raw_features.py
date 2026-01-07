@@ -39,47 +39,7 @@ def extract_md_from_zip(zip_path):
     
     return md_contents
 
-def extract_metadata(content):
-    """
-    Extract version metadata like release date and version name.
-    Searches for patterns like:
-    - Release date: 23 February, 2018
-    - # Changelog for QGIS 3.0.0
-    """
-    metadata = {
-        'release_date': 'Not specified',
-        'version_name': 'Not specified'
-    }
-    
-    # Pattern for release date
-    date_pattern = r'(?:Release date|Released):\s*(.+?)(?:\n|$)'
-    date_match = re.search(date_pattern, content, re.IGNORECASE)
-    if date_match:
-        metadata['release_date'] = date_match.group(1).strip()
-    
-    # Pattern for version name in the title
-    # E.g.: "# Changelog for QGIS 3.0.0" or "QGIS 3.10 'A Coruña'"
-    version_name_patterns = [
-        r'#\s+Changelog for QGIS\s+([\d.]+(?:-LTR)?)\s*[\'"]?([^\'"#\n]*)[\'"]?',
-        r'QGIS\s+([\d.]+(?:-LTR)?)\s+[\'"]([^\'"]+)[\'"]',
-        r'(?:Introducing|Announcing|Release of)\s+QGIS\s+([\d.]+(?:-LTR)?)\s*[,\s]+([^\n,]+)',
-    ]
-    
-    for pattern in version_name_patterns:
-        match = re.search(pattern, content, re.IGNORECASE)
-        if match:
-            version_num = match.group(1).strip()
-            if len(match.groups()) > 1:
-                version_label = match.group(2).strip()
-                if version_label and not version_label.startswith('a '):
-                    metadata['version_name'] = f"{version_num} '{version_label}'"
-                else:
-                    metadata['version_name'] = version_num
-            else:
-                metadata['version_name'] = version_num
-            break
-    
-    return metadata
+
 
 def extract_links_from_markdown(text):
     """
@@ -183,7 +143,7 @@ def extract_funder_info_raw(text, lines, start_idx):
     
     return funder, funder_link
 
-def parse_feature_info(content, metadata):
+def parse_feature_info(content):
     """
     Parse markdown content to extract feature information.
     Typical format is:
@@ -202,8 +162,9 @@ def parse_feature_info(content, metadata):
     # Patterns to identify sections
     category_pattern = r'^##\s+(.+?)$'
     feature_pattern = r'^###\s+Feature:\s*(.+?)$'
-    funded_pattern = r'(?:This feature was funded by|Funded by)\s+(.+?)(?:\n|$)'
-    developed_pattern = r'(?:This feature was developed by|Developed by)\s+(.+?)(?:\n|$)'
+    # Updated patterns to handle multiline cases
+    funded_pattern = r'(?:This feature was funded by|Funded by)\s+(.+?)(?=\n\n|\n###|\n##|$)'
+    developed_pattern = r'(?:This feature was developed by|Developed by)\s+(.+?)(?=\n\n|\n###|\n##|$)'
     
     lines = content.split('\n')
     current_category = "Unknown"
@@ -231,6 +192,8 @@ def parse_feature_info(content, metadata):
             developed_by = "Not specified"
             developed_by_link = ""
             
+            # Collect following text until next feature or category
+            following_text = ""
             for j in range(i + 1, min(i + 100, len(lines))):
                 next_line = lines[j]
                 
@@ -238,21 +201,25 @@ def parse_feature_info(content, metadata):
                 if re.match(r'^###\s+Feature:', next_line) or re.match(r'^##\s+', next_line):
                     break
                 
-                # Search for funded by
-                funded_match = re.search(funded_pattern, next_line, re.IGNORECASE)
-                if funded_match and funded_by == "Not specified":
-                    funded_by, funded_by_link = extract_funder_info_raw(funded_match.group(1), lines, j)
-                    # Check if result is empty
-                    if not funded_by or funded_by.strip() == '':
-                        funded_by = "Not specified"
-                
-                # Search for developed by
-                developed_match = re.search(developed_pattern, next_line, re.IGNORECASE)
-                if developed_match and developed_by == "Not specified":
-                    developed_by, developed_by_link = extract_developer_info_raw(developed_match.group(1), lines, j)
-                    # Check if result is empty
-                    if not developed_by or developed_by.strip() == '':
-                        developed_by = "Not specified"
+                following_text += next_line + "\n"
+            
+            # Search in the collected text (handles multiline cases)
+            funded_match = re.search(funded_pattern, following_text, re.IGNORECASE | re.DOTALL)
+            if funded_match:
+                # Replace newlines with spaces in the matched text
+                matched_text = funded_match.group(1).replace('\n', ' ')
+                funded_by, funded_by_link = extract_funder_info_raw(matched_text, [matched_text], 0)
+                if not funded_by or funded_by.strip() == '':
+                    funded_by = "Not specified"
+            
+            # Search for developed by
+            developed_match = re.search(developed_pattern, following_text, re.IGNORECASE | re.DOTALL)
+            if developed_match:
+                # Replace newlines with spaces in the matched text
+                matched_text = developed_match.group(1).replace('\n', ' ')
+                developed_by, developed_by_link = extract_developer_info_raw(matched_text, [matched_text], 0)
+                if not developed_by or developed_by.strip() == '':
+                    developed_by = "Not specified"
             
             features.append({
                 'category': current_category,
@@ -260,9 +227,7 @@ def parse_feature_info(content, metadata):
                 'funded_by': funded_by if funded_by else "Not specified",
                 'funded_by_link': funded_by_link,
                 'developed_by': developed_by if developed_by else "Not specified",
-                'developed_by_link': developed_by_link,
-                'release_date': metadata['release_date'],
-                'version_name': metadata['version_name']
+                'developed_by_link': developed_by_link
             })
         
         i += 1
@@ -307,11 +272,8 @@ def process_all_zips():
         # Parse each .md file
         features_count = 0
         for md_info in md_contents:
-            # Extract metadata (date and version name)
-            metadata = extract_metadata(md_info['content'])
-            
             # Extract features
-            features = parse_feature_info(md_info['content'], metadata)
+            features = parse_feature_info(md_info['content'])
             
             # Add version and file information
             for feature in features:
@@ -321,14 +283,6 @@ def process_all_zips():
                 features_count += 1
         
         print(f"   ✅ Extracted {features_count} features")
-        
-        # Show extracted metadata if available
-        if all_features and features_count > 0:
-            last_feature = all_features[-1]
-            if last_feature['version_name'] != 'Not specified':
-                print(f"   📌 Version name: {last_feature['version_name']}")
-            if last_feature['release_date'] != 'Not specified':
-                print(f"   📅 Release date: {last_feature['release_date']}")
     
     return all_features
 
@@ -342,7 +296,7 @@ def save_to_csv(features, output_file):
     print(f"\n💾 Saving results to {output_file}...")
     
     # Define columns
-    fieldnames = ['version', 'version_name', 'release_date', 'category', 'feature_name', 
+    fieldnames = ['version', 'category', 'feature_name', 
                   'funded_by', 'funded_by_link', 'developed_by', 'developed_by_link', 'md_file']
     
     with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:

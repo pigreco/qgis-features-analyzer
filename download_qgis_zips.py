@@ -8,34 +8,27 @@ import os
 import requests
 from pathlib import Path
 
-# Lista completa degli URL delle versioni QGIS
-CHANGELOG_URLS = [
-    "https://changelog.qgis.org/en/version/3.44/md/",
-    "https://changelog.qgis.org/en/version/3.42/md/",
-    "https://changelog.qgis.org/en/version/3.40/md/",
-    "https://changelog.qgis.org/en/version/3.38/md/",
-    "https://changelog.qgis.org/en/version/3.36/md/",
-    "https://changelog.qgis.org/en/version/3.34/md/",
-    "https://changelog.qgis.org/en/version/3.32/md/",
-    "https://changelog.qgis.org/en/version/3.30/md/",
-    "https://changelog.qgis.org/en/version/3.28/md/",
-    "https://changelog.qgis.org/en/version/3.26/md/",
-    "https://changelog.qgis.org/en/version/3.24/md/",
-    "https://changelog.qgis.org/en/version/3.22/md/",
-    "https://changelog.qgis.org/en/version/3.20/md/",
-    "https://changelog.qgis.org/en/version/3.18/md/",
-    "https://changelog.qgis.org/en/version/3.16/md/",
-    "https://changelog.qgis.org/en/version/3.14/md/",
-    "https://changelog.qgis.org/en/version/3.12/md/",
-    "https://changelog.qgis.org/en/version/3.10/md/",
-    "https://changelog.qgis.org/en/version/3.8/md/",
-    "https://changelog.qgis.org/en/version/3.6.0/md/",
-    "https://changelog.qgis.org/en/version/3.4-LTR/md/",
-    "https://changelog.qgis.org/en/version/3.2.0/md/",
-    "https://changelog.qgis.org/en/version/3.0.0/md/",
-]
-
 DOWNLOAD_DIR = "qgis_downloads"
+URLS_FILE = "changelog_urls.txt"
+
+def load_changelog_urls(filename):
+    """Carica gli URL dal file di configurazione"""
+    urls = []
+    try:
+        with open(filename, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                # Ignora righe vuote e commenti
+                if line and not line.startswith('#'):
+                    urls.append(line)
+        print(f"📋 Caricate {len(urls)} URL da {filename}")
+        return urls
+    except FileNotFoundError:
+        print(f"❌ Errore: File {filename} non trovato!")
+        return []
+    except Exception as e:
+        print(f"❌ Errore nella lettura del file {filename}: {e}")
+        return []
 
 def extract_version_from_url(url):
     """Estrae la versione dall'URL per il nome del file"""
@@ -86,13 +79,20 @@ def main():
     print("🚀 Avvio download degli archivi ZIP di QGIS")
     print("=" * 60)
     
+    # Carica gli URL dal file
+    changelog_urls = load_changelog_urls(URLS_FILE)
+    
+    if not changelog_urls:
+        print("❌ Nessun URL da processare. Verifica il file changelog_urls.txt")
+        return
+    
     create_download_directory()
     
     total_attempts = 0
     successful_downloads = 0
     skipped = 0
     
-    for url in CHANGELOG_URLS:
+    for url in changelog_urls:
         version_str = extract_version_from_url(url)
         
         print(f"\n📋 Versione {version_str}")

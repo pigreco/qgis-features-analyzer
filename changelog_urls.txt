@@ -1,0 +1,27 @@
+# Lista degli URL dei changelog QGIS
+# Formato: un URL per riga
+# Le righe che iniziano con # sono commenti e vengono ignorate
+
+https://changelog.qgis.org/en/version/3.44/md/
+https://changelog.qgis.org/en/version/3.42/md/
+https://changelog.qgis.org/en/version/3.40/md/
+https://changelog.qgis.org/en/version/3.38/md/
+https://changelog.qgis.org/en/version/3.36/md/
+https://changelog.qgis.org/en/version/3.34/md/
+https://changelog.qgis.org/en/version/3.32/md/
+https://changelog.qgis.org/en/version/3.30/md/
+https://changelog.qgis.org/en/version/3.28/md/
+https://changelog.qgis.org/en/version/3.26/md/
+https://changelog.qgis.org/en/version/3.24/md/
+https://changelog.qgis.org/en/version/3.22/md/
+https://changelog.qgis.org/en/version/3.20/md/
+https://changelog.qgis.org/en/version/3.18/md/
+https://changelog.qgis.org/en/version/3.16/md/
+https://changelog.qgis.org/en/version/3.14/md/
+https://changelog.qgis.org/en/version/3.12/md/
+https://changelog.qgis.org/en/version/3.10/md/
+https://changelog.qgis.org/en/version/3.8/md/
+https://changelog.qgis.org/en/version/3.6.0/md/
+https://changelog.qgis.org/en/version/3.4-LTR/md/
+https://changelog.qgis.org/en/version/3.2.0/md/
+https://changelog.qgis.org/en/version/3.0.0/md/
