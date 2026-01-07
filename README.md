@@ -121,6 +121,10 @@ To add new versions, modify the `CHANGELOG_URLS` list in [download_qgis_zips.py]
 
 Contributions, issues, and feature requests are welcome!
 
+## 🤖 Development
+
+These scripts were developed with the assistance of AI (Claude AI).
+
 ## 📄 License
 
 See the [LICENSE](LICENSE) file for details.
