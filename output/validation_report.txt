@@ -1,0 +1,176 @@
+COMPANY-DEVELOPER MAPPING VALIDATION REPORT
+======================================================================
+
+📊 SUMMARY
+----------------------------------------------------------------------
+✅ Validated (exact matches): 20
+💡 Suggestions (fuzzy matches): 0
+❓ Not in reference data: 12
+🔍 Missing from mapping: 72
+
+======================================================================
+✅ VALIDATED DEVELOPERS (Exact matches with reference data)
+======================================================================
+
+
+🏢 3Liz
+   ✓ René-Luc D'Hont (2 features)
+
+🏢 Faunalia
+   ✓ Matteo Ghetta (4 features)
+
+🏢 Kartoza
+   ✓ Etienne Trimaille (4 features)
+   ✓ Samweli Mwakisambwe (4 features)
+   ✓ Muhammad Yarjuna Rohmat (2 features)
+
+🏢 Lutra Consulting
+   ✓ Martin Dobias (41 features)
+   ✓ Peter Petrik (19 features)
+   ✓ Stefanos Natsis (16 features)
+
+🏢 North Road
+   ✓ Nyall Dawson (367 features)
+
+🏢 OPENGIS.ch
+   ✓ Matthias Kuhn (20 features)
+   ✓ David Signer (13 features)
+   ✓ Mathieu Pellerin (5 features)
+   ✓ Germán Carrillo (3 features)
+   ✓ Denis Rouzaud (2 features)
+   ✓ Marco Bernasocchi (1 features)
+
+🏢 Oslandia
+   ✓ Julien Cabieces (12 features)
+   ✓ Loïc Bartoletti (10 features)
+
+🏢 QCooperative
+   ✓ Alessandro Pasotti (7 features)
+   ✓ Alexander Bruy (2 features)
+
+🏢 Spatialys
+   ✓ Even Rouault (8 features)
+
+======================================================================
+❓ DEVELOPERS NOT IN REFERENCE DATA
+======================================================================
+(These might be past employees, contributors, or data quality issues)
+
+
+🏢 Hytech-imaging
+   ? Paul Blottiere (1 features) - No reference data
+
+🏢 Kartoza
+   ? Nyall Dawson (1 features) - Best match score: 50.0%
+
+🏢 Lutra Consulting
+   ? Vincent Cloarec (44 features) - Best match score: 59.3%
+   ? Nedjima Belgacem (8 features) - Best match score: 54.5%
+   ? Alexander Bruy (1 features) - Best match score: 80.0%
+   ? Viktor Sklencar (1 features) - Best match score: 63.2%
+
+🏢 OPENGIS.ch
+   ? Olivier Dalang (1 features) - Best match score: 54.5%
+
+🏢 Oslandia
+   ? Jacky Volpes (6 features) - Best match score: 42.1%
+   ? Jean Felder (6 features) - Best match score: 46.2%
+   ? Paul Blottiere (3 features) - Best match score: 50.0%
+   ? Hugo Mercier (1 features) - Best match score: 41.7%
+
+🏢 strk
+   ? Sandro Santilli (6 features) - No reference data
+
+======================================================================
+🔍 EMPLOYEES IN REFERENCE BUT NOT IN FEATURE MAPPING
+======================================================================
+(These team members might not have contributed to QGIS features in the analyzed versions)
+
+
+🏢 3Liz (2 members)
+   - Michaël Douchin
+   - Nicolas Boisteault
+
+🏢 Faunalia (2 members)
+   - Giovanni Manghi
+   - Paolo Cavallini
+
+🏢 Kartoza (9 members)
+   - Admire Nyakudya
+   - Amy Burness
+   - Dimas Ciputra
+   - Faneva Andriamiadantsoa
+   - Gavin Fleming
+   - Jeremy Prior
+   - Ketan Bamniya
+   - Nick Hamm
+   - Tim Sutton
+
+🏢 Lutra Consulting (24 members)
+   - Alexandra Rasova
+   - Andrej Roman
+   - Daniel Chovanec
+   - David Konarik
+   - Diana Papulakova
+   - Dominik Cindrić
+   - Fernando Ribeiro
+   - Gabriel Bolbotina
+   - Herman Snevajss
+   - Ivana Kuklicová
+   - Jan Caha
+   - Jan Paulovic
+   - Jas Joshi
+   - Marcel Kocisek
+   - Martin Varga
+   - Matej Bagar
+   - Nela Grausova
+   - Patrik Mizera
+   - Radek Pasiok
+   - Rasto Hudak
+   - Ryan Aherin
+   - Saber Razmjooei
+   - Tomas Mizera
+   - Vitor Vieira
+
+🏢 OPENGIS.ch (30 members)
+   - Alexandra Erbach
+   - Anja Ottiger
+   - Anna Randegger
+   - Aurèle Ferotin
+   - Ben Koch
+   - Berit Mohr
+   - Chantal Widmer
+   - Clemens Rudert
+   - Damiano Lombardi
+   - Daniel O'Donohue
+   - Didier Dupertuis
+   - Eliane Bernasocchi
+   - Guilhem Allaman
+   - Isabel Kiefer
+   - Ivan Ivanov
+   - Johnny Sequeira
+   - Linda Indra-Camathias
+   - Lucie Nicolier
+   - Lukas Graf
+   - Michael Schmuki
+   - Mohsen Dehghanzadeh
+   - Molly O'Mara
+   - Naémi Meisser
+   - Patricia Moll
+   - Rakan Farhouda
+   - Stéphane Henriod
+   - Tobias Heini
+   - Tobias König
+   - Valentin Buira
+   - Zsanett Medvei
+
+🏢 Oslandia (3 members)
+   - Benoit Ducarouge
+   - Bertrand Parpoil
+   - Julien (surname unknown)
+
+🏢 QCooperative (1 members)
+   - ItOpen Team
+
+🏢 Spatialys (1 members)
+   - Julien Michel

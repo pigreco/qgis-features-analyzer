@@ -1,0 +1,75 @@
+AGGREGATION SUMMARY STATISTICS
+======================================================================
+
+📊 OVERALL STATISTICS
+----------------------------------------------------------------------
+Total companies: 11
+Total unique developers: 29
+Total features: 621
+Average features per developer: 21.41
+Average features per company: 56.45
+
+======================================================================
+🏢 COMPANIES RANKED BY TOTAL FEATURES
+======================================================================
+
+ 1. North Road                -  367 features,  1 developers (avg: 367.00)
+ 2. Lutra Consulting          -  130 features,  7 developers (avg:  18.57)
+ 3. OPENGIS.ch                -   45 features,  7 developers (avg:   6.43)
+ 4. Oslandia                  -   38 features,  6 developers (avg:   6.33)
+ 5. Kartoza                   -   11 features,  4 developers (avg:   2.75)
+ 6. QCooperative              -    9 features,  2 developers (avg:   4.50)
+ 7. Spatialys                 -    8 features,  1 developers (avg:   8.00)
+ 8. strk                      -    6 features,  1 developers (avg:   6.00)
+ 9. Faunalia                  -    4 features,  1 developers (avg:   4.00)
+10. 3Liz                      -    2 features,  1 developers (avg:   2.00)
+11. Hytech-imaging            -    1 features,  1 developers (avg:   1.00)
+
+======================================================================
+🏢 COMPANIES RANKED BY DEVELOPER COUNT
+======================================================================
+
+ 1. Lutra Consulting          -  7 developers,  130 features
+ 2. OPENGIS.ch                -  7 developers,   45 features
+ 3. Oslandia                  -  6 developers,   38 features
+ 4. Kartoza                   -  4 developers,   11 features
+ 5. QCooperative              -  2 developers,    9 features
+ 6. 3Liz                      -  1 developers,    2 features
+ 7. Faunalia                  -  1 developers,    4 features
+ 8. Hytech-imaging            -  1 developers,    1 features
+ 9. North Road                -  1 developers,  367 features
+10. Spatialys                 -  1 developers,    8 features
+11. strk                      -  1 developers,    6 features
+
+======================================================================
+👨‍💻 TOP 20 DEVELOPERS BY FEATURE COUNT
+======================================================================
+
+ 1. Nyall Dawson                   -  368 features (Kartoza, North Road)
+ 2. Vincent Cloarec                -   44 features (Lutra Consulting)
+ 3. Martin Dobias                  -   41 features (Lutra Consulting)
+ 4. Matthias Kuhn                  -   20 features (OPENGIS.ch)
+ 5. Peter Petrik                   -   19 features (Lutra Consulting)
+ 6. Stefanos Natsis                -   16 features (Lutra Consulting)
+ 7. David Signer                   -   13 features (OPENGIS.ch)
+ 8. Julien Cabieces                -   12 features (Oslandia)
+ 9. Loïc Bartoletti                -   10 features (Oslandia)
+10. Nedjima Belgacem               -    8 features (Lutra Consulting)
+11. Even Rouault                   -    8 features (Spatialys)
+12. Alessandro Pasotti             -    7 features (QCooperative)
+13. Jacky Volpes                   -    6 features (Oslandia)
+14. Jean Felder                    -    6 features (Oslandia)
+15. Sandro Santilli                -    6 features (strk)
+16. Mathieu Pellerin               -    5 features (OPENGIS.ch)
+17. Matteo Ghetta                  -    4 features (Faunalia)
+18. Paul Blottiere                 -    4 features (Hytech-imaging, Oslandia)
+19. Etienne Trimaille              -    4 features (Kartoza)
+20. Samweli Mwakisambwe            -    4 features (Kartoza)
+
+======================================================================
+🔄 DEVELOPERS WORKING WITH MULTIPLE COMPANIES
+======================================================================
+
+• Nyall Dawson                   - 2 companies: Kartoza, North Road (368 features)
+• Paul Blottiere                 - 2 companies: Hytech-imaging, Oslandia (4 features)
+• Alexander Bruy                 - 2 companies: Lutra Consulting, QCooperative (3 features)

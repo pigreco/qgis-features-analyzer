@@ -1,0 +1,61 @@
+======================================================================
+AZIENDE E SVILUPPATORI ASSOCIATI
+======================================================================
+
+🏢 Lutra Consulting (7 sviluppatori, 130 features)
+   👤 Alexander Bruy (1 features)
+   👤 Martin Dobias (41 features)
+   👤 Nedjima Belgacem (8 features)
+   👤 Peter Petrik (19 features)
+   👤 Stefanos Natsis (16 features)
+   👤 Viktor Sklencar (1 features)
+   👤 Vincent Cloarec (44 features)
+
+🏢 OPENGIS.ch (7 sviluppatori, 45 features)
+   👤 David Signer (13 features)
+   👤 Denis Rouzaud (2 features)
+   👤 Germán Carrillo (3 features)
+   👤 Marco Bernasocchi (1 features)
+   👤 Mathieu Pellerin (5 features)
+   👤 Matthias Kuhn (20 features)
+   👤 Olivier Dalang (1 features)
+
+🏢 Oslandia (6 sviluppatori, 38 features)
+   👤 Hugo Mercier (1 features)
+   👤 Jacky Volpes (6 features)
+   👤 Jean Felder (6 features)
+   👤 Julien Cabieces (12 features)
+   👤 Loïc Bartoletti (10 features)
+   👤 Paul Blottiere (3 features)
+
+🏢 Kartoza (4 sviluppatori, 11 features)
+   👤 Etienne Trimaille (4 features)
+   👤 Muhammad Yarjuna Rohmat (2 features)
+   👤 Nyall Dawson (1 features)
+   👤 Samweli Mwakisambwe (4 features)
+
+🏢 QCooperative (2 sviluppatori, 9 features)
+   👤 Alessandro Pasotti (7 features)
+   👤 Alexander Bruy (2 features)
+
+🏢 North Road (1 sviluppatori, 367 features)
+   👤 Nyall Dawson (367 features)
+
+🏢 3Liz (1 sviluppatori, 2 features)
+   👤 René-Luc D'Hont (2 features)
+
+🏢 Spatialys (1 sviluppatori, 8 features)
+   👤 Even Rouault (8 features)
+
+🏢 Faunalia (1 sviluppatori, 4 features)
+   👤 Matteo Ghetta (4 features)
+
+🏢 strk (1 sviluppatori, 6 features)
+   👤 Sandro Santilli (6 features)
+
+🏢 Hytech-imaging (1 sviluppatori, 1 features)
+   👤 Paul Blottiere (1 features)
+
+======================================================================
+Totale aziende identificate: 11
+======================================================================

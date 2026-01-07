@@ -8,8 +8,10 @@ This project provides Python scripts to automate the extraction and analysis of 
 
 1. **download_qgis_zips.py** - Downloads ZIP archives containing changelogs in Markdown format
 2. **extract_raw_features.py** - Extracts raw information from Markdown files without normalization
-3. **normalize_features.py** - Normalizes developer names and data from the raw CSV file
-4. **extract_developers_companies.py** - Extracts a mapping of developers to their associated companies
+3. **normalize_developers.py** - Normalizes developer names using fuzzy matching (similar to OpenRefine)
+4. **normalize_features.py** - Normalizes developer names and data from the raw CSV file
+5. **extract_companies_developers.py** - Creates company-centric mapping with intelligent normalization
+6. **extract_developers_companies.py** - Extracts a mapping of developers to their associated companies
 
 ## 🚀 Installation
 
@@ -26,6 +28,7 @@ pip install -r requirements.txt
 
 - `requests` >= 2.31.0
 - `beautifulsoup4` >= 4.12.0
+- `rapidfuzz` >= 3.0.0 (for fuzzy name matching)
 
 ## 💻 Usage
 
@@ -47,17 +50,54 @@ This script:
 # Step 1: Extract raw data
 python3 scripts/extract_raw_features.py
 
-# Step 2: Normalize data
+# Step 2: Normalize developer names using fuzzy matching
+python3 scripts/normalize_developers.py
+
+# Step 3: Normalize data (optional, uses raw CSV)
 python3 scripts/normalize_features.py
 
-# Step 3 (optional): Extract developers and companies mapping
+# Step 4: Extract company-centric mapping
+python3 scripts/extract_companies_developers.py
+
+# Step 5 (optional): Extract developer-centric mapping
 python3 scripts/extract_developers_companies.py
+
+# Step 6 (optional): Validate mappings against reference data
+python3 scripts/validate_companies_mapping.py
 ```
 
 **Scripts description:**
 - `extract_raw_features.py` extracts raw information without normalization and generates `output/qgis_features_raw.csv`
+- `normalize_developers.py` uses fuzzy matching (similar to OpenRefine) to find and normalize similar developer names, generating `output/qgis_features_normalized_dev.csv` and `output/developer_normalizations.txt`
 - `normalize_features.py` reads the raw CSV and applies normalization rules to generate `output/qgis_features_normalized.csv`
+- `extract_companies_developers.py` creates a company-centric view with intelligent normalization, using the fuzzy-normalized data
 - `extract_developers_companies.py` analyzes the data to create a mapping of developers to their companies and saves it to `output/developers_companies.txt`
+- `validate_companies_mapping.py` validates the extracted mappings against reference team data from `data/` folder, generating a detailed validation report
+
+### 3. Validation and Quality Assurance
+
+The project includes reference data for major QGIS contributor companies in the `data/` folder:
+- **Lutra Consulting** (27 team members)
+- **OPENGIS.ch** (36 team members)
+- **Oslandia** (5 team members)
+- **North Road** (1 core developer)
+- **Kartoza** (12 team members)
+- **Faunalia** (3 team members)
+- **QCooperative** (3 team members)
+- **Spatialys** (2 team members)
+- **3Liz** (3 team members)
+
+Run the validation script to check the accuracy of developer-company mappings:
+
+```bash
+python3 scripts/validate_companies_mapping.py
+```
+
+This will generate `output/validation_report.txt` with:
+- ✅ Validated developers (exact matches with reference data)
+- 💡 Suggestions for normalization (fuzzy matches)
+- ❓ Developers not in reference data (possible past employees)
+- 🔍 Team members not found in feature mappings
 
 ## 📊 Output
 
@@ -82,13 +122,30 @@ qgis-features-analyzer/
 │   ├── download_qgis_zips.py              # Script for downloading changelogs
 │   ├── extract_raw_features.py            # Script for extracting raw features
 │   ├── normalize_features.py              # Script for normalizing data
-│   └── extract_developers_companies.py    # Script for extracting developers-companies mapping
+│   ├── normalize_developers.py            # Script for fuzzy normalization of developer names
+│   ├── extract_companies_developers.py    # Script for extracting companies-developers mapping
+│   ├── extract_developers_companies.py    # Script for extracting developers-companies mapping
+│   └── validate_companies_mapping.py      # Script for validating mappings against reference data
 ├── output/
 │   ├── qgis_features_raw.csv              # Generated CSV file (raw data)
 │   ├── qgis_features_normalized.csv       # Generated CSV file (normalized data)
-│   └── developers_companies.txt           # Generated text file (developers to companies mapping)
+│   ├── qgis_features_normalized_dev.csv   # Generated CSV file (fuzzy normalized developer names)
+│   ├── companies_developers.csv           # Company-centric mapping (CSV format)
+│   ├── companies_developers.txt           # Company-centric mapping (readable format)
+│   ├── developers_companies.txt           # Developer-centric mapping
+│   ├── developer_normalizations.txt       # Fuzzy normalization report
+│   └── validation_report.txt              # Validation report against reference data
 ├── data/
-│   └── qgis_downloads/                    # Directory with downloaded ZIP files (ignored by git)
+│   ├── qgis_downloads/                    # Directory with downloaded ZIP files (ignored by git)
+│   ├── lutra_consulting_team.csv          # Lutra Consulting team reference data
+│   ├── opengis_team.csv                   # OPENGIS.ch team reference data
+│   ├── oslandia_team.csv                  # Oslandia team reference data
+│   ├── north_road_team.csv                # North Road team reference data
+│   ├── kartoza_team.csv                   # Kartoza team reference data
+│   ├── faunalia_team.csv                  # Faunalia team reference data
+│   ├── qcooperative_team.csv              # QCooperative team reference data
+│   ├── spatialys_team.csv                 # Spatialys team reference data
+│   └── 3liz_team.csv                      # 3Liz team reference data
 ├── changelog_urls.txt                     # List of QGIS changelog URLs
 ├── requirements.txt                       # Python dependencies
 ├── README.md                              # This file

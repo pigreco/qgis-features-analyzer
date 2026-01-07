@@ -1,0 +1,14 @@
+DEVELOPER NAME NORMALIZATIONS
+======================================================================
+
+Found 9 normalizations:
+
+  '3liz' → '3Liz' (1 occurrences)
+  'Martin Dobias, Peter Petrik (Lutra Consulting)' → 'Martin Dobias, Peter Petrik (Lutra Consulting) and Faunalia' (2 occurrences)
+  'Mathieu Pelllerin' → 'Mathieu Pellerin' (2 occurrences)
+  'Olivier Dalang and OPENGIS.ch' → 'Olivier Dalang, OPENGIS.ch' (2 occurrences)
+  'Pau Blottiere' → 'Paul Blottiere' (1 occurrences)
+  'benoitdm-oslandia' → 'Benoit D.-M. - oslandia' (1 occurrences)
+  'olivierdalang' → 'Olivier Dalang' (1 occurrences)
+  'Éric Lemoine' → 'Eric Lemoine' (1 occurrences)
+  'Étienne Trimaille' → 'Etienne Trimaille' (5 occurrences)
