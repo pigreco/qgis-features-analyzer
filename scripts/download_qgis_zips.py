@@ -8,7 +8,7 @@ import os
 import requests
 from pathlib import Path
 
-DOWNLOAD_DIR = "qgis_downloads"
+DOWNLOAD_DIR = "data/qgis_downloads"
 URLS_FILE = "changelog_urls.txt"
 
 def load_changelog_urls(filename):

@@ -14,8 +14,8 @@ import re
 from pathlib import Path
 import csv
 
-DOWNLOAD_DIR = "qgis_downloads"
-OUTPUT_CSV = "qgis_features_raw.csv"
+DOWNLOAD_DIR = "data/qgis_downloads"
+OUTPUT_CSV = "output/qgis_features_raw.csv"
 
 def extract_md_from_zip(zip_path):
     """Extract the content of .md files from a ZIP archive"""

@@ -8,8 +8,8 @@ import csv
 import re
 import os
 
-INPUT_CSV = "qgis_features_raw.csv"
-OUTPUT_CSV = "qgis_features_normalized.csv"
+INPUT_CSV = "output/qgis_features_raw.csv"
+OUTPUT_CSV = "output/qgis_features_normalized.csv"
 
 def normalize_developer_name(name):
     """

@@ -8,8 +8,8 @@ import csv
 import re
 from collections import defaultdict
 
-INPUT_CSV = "qgis_features_raw.csv"
-OUTPUT_TXT = "developers_companies.txt"
+INPUT_CSV = "output/qgis_features_raw.csv"
+OUTPUT_TXT = "output/developers_companies.txt"
 
 def extract_developers_and_companies():
     """Extract and map developers to their associated companies"""

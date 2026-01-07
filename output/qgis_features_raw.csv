@@ -793,6 +793,79 @@ version,category,feature_name,funded_by,funded_by_link,developed_by,developed_by
 3.18,Notable Fixes,Bug fixes by Even Rouault,QGIS.ORG (through donations and sustaining memberships),https://www.qgis.org/,Even Rouault,http://www.spatialys.com/,index.md
 3.18,Notable Fixes,Bug fixes by Julien Cabieces,QGIS.ORG (through donations and sustaining memberships),https://www.qgis.org/,Julien Cabieces,https://oslandia.com/en/,index.md
 3.18,Notable Fixes,Bug fixes by Nyall Dawson,QGIS.ORG (through donations and sustaining memberships),https://www.qgis.org/,Nyall Dawson,https://north-road.com/,index.md
+3.2.0,General,New zipped project file format .qgz is now the default format,Not specified,,OSLANDIA - Paul Blottiere,https://github.com/pblottiere,index.md
+3.2.0,General,Filtering for field values in Query Builder,Not specified,,Salvatore Larosa,https://github.com/slarosa,index.md
+3.2.0,General,FULL screen Map via Ctrl-Shift-Tab,Not specified,,Richard Duivenvoorde,,index.md
+3.2.0,Map Tools,Simplify map tool can now also smooth features,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Map Tools,Identify Tool with extra options,Leicestershire County Council and East Hampshire District Council,,Martin Dobias and Viktor Sklencar,https://www.lutraconsulting.co.uk,index.md
+3.2.0,Map Tools,Store also expanded/collapsed state of nodes in map Themes,Arpa Piemonte (Dipartimento Tematico Geologia e Dissesto) within ERIKUS project,https://www.arpa.piemonte.it/,Martin Dobias (Lutra Consulting) and Faunalia,https://www.lutraconsulting.co.uk,index.md
+3.2.0,Map Tools,"Auto ""Zoom to Selection"" mode for new map views",Technology One,https://www.technologyonecorp.com/,Nathan Woodrow,https://nathanw.net/,index.md
+3.2.0,Map Tools,Choice of simplification method for simplify map tool,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Map Tools,add zoom to related feature in forms,Not specified,,Jürgen Fischer,,index.md
+3.2.0,Map Tools,Cartesian areas/lengths/perimeters in identify results,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,User Interface,Layers panel: indicators for filtered map layers,Arpa Piemonte (Dipartimento Tematico Geologia e Dissesto) within ERIKUS project,https://www.arpa.piemonte.it/,Martin Dobias (Lutra Consulting) and Faunalia,https://www.lutraconsulting.co.uk/,index.md
+3.2.0,User Interface,Allow customizing prefix of locator filters,QGIS User Group Switzerland,https://qgis.ch,"Denis Rouzaud, OPENGIS.ch",https://opengis.ch,index.md
+3.2.0,User Interface,"Opening of vector and raster stored on HTTP(S), FTP, or cloud services",Not specified,,Mathieu Pellerin,http://www.imhere-asia.com/,index.md
+3.2.0,User Interface,Quick calculator in locator search bar,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,User Interface,Shortcuts for toggling panels,Technology One,https://www.technologyonecorp.com/,Nathan Woodrow,https://nathanw.net/,index.md
+3.2.0,User Interface,Bookmark searching in locator,Not specified,,Klavs Pihlkjær,,index.md
+3.2.0,User Interface,Close and Revert Project actions,Not specified,,"Nathan Woodrow, Nyall Dawson",,index.md
+3.2.0,User Interface,Unsaved changes indicator in title bar,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,User Interface,Configurable map tips delay,Not specified,,jdugge,,index.md
+3.2.0,User Interface,Move layer or group to top of layer panel,Not specified,,Mie Winstrup,,index.md
+3.2.0,User Interface,Copy statistics panel content to clipboard button,Not specified,,Mathieu Pellerin,http://www.imhere-asia.com/,index.md
+3.2.0,User Interface,"Search Settings, Options, and Project Properties pages from locator",Not specified,,Klavs Pihlkjær,,index.md
+3.2.0,User Interface,Indicators for embedded layers and groups,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Symbology,Nicer colors for new layers,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Rendering,Improved map Copyright decoration,Not specified,,Mathieu Pellerin,http://www.imhere-asia.com/,index.md
+3.2.0,Rendering,Main window scale bar font size and family can be customized,Not specified,,Mathieu Pelllerin,http://www.imhere-asia.com/,index.md
+3.2.0,Rendering,Custom SVG path and size for the north arrow decoration,Not specified,,Mathieu Pellerin,http://www.imhere-asia.com/,index.md
+3.2.0,3D Features,3D Polygons: Optionally generate back faces,Not specified,,Martin Dobias (Lutra Consulting),https://www.lutraconsulting.co.uk/,index.md
+3.2.0,Print Layouts,Data defined table source for attribute table items,Kartoza/InaSAFE,http://kartoza.com/en/,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Print Layouts,Project metadata embedded in layout exports,Arpa Piemonte (Dipartimento Tematico Geologia e Dissesto) within ERIKUS project,,Nyall Dawson (North Road) and Faunalia,http://north-road.com,index.md
+3.2.0,Print Layouts,Better formatting for scalebar text,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Expressions,New expression functions,Not specified,,"Mathieu Pellerin, Nyall Dawson",,index.md
+3.2.0,Expressions,More helpful expression builder,Technology One,https://www.technologyonecorp.com/,Nathan Woodrow,https://nathanw.net/,index.md
+3.2.0,Data Management,Refresh a materialized view,Not specified,,Etienne Trimaille,http://github.com/Gustry,index.md
+3.2.0,Data Management,Z and M support for offline editing,Oester Messtechnik,https://messtechnik.ch/,"Matthias Kuhn, OPENGIS.ch",https://opengis.ch,index.md
+3.2.0,Data Management,Metadata for QGIS projects,Arpa Piemonte (Dipartimento Tematico Geologia e Dissesto) within ERIKUS project,,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Forms and Widgets,Multi-column layout for multiselect value relation widget,Grundbuch- und Vermessungsamt des Kanton Zug,https://www.zg.ch/behoerden/direktion-des-innern/grundbuch-und-vermessungsamt/gis-fachstelle,"David Signer, OPENGIS.ch",https://opengis.ch,index.md
+3.2.0,Forms and Widgets,Allow using a URL for custom attribute forms (UI file),SIRS,http://www.sirs-fr.com,"Denis Rouzaud, OPENGIS.ch",https://opengis.ch,index.md
+3.2.0,Forms and Widgets,Drill-down (cascading) forms,"Grant Boxer, NaturalGIS, Tudor Bărăscu, NotioGIS, République et canton de Neuchâtel, Arpa Piemonte, Nelson Silva, QGIS Danish User Group, Bo Victor Thomsen and Lene Fischer, North River Geographic",,Alessandro Pasotti (North Road),https://north-road.com,index.md
+3.2.0,Layer Legend,Optional text on top of symbols for vector layers,Arpa Piemonte (Dipartimento Tematico Geologia e Dissesto) within ERIKUS project,https://www.arpa.piemonte.it/,Martin Dobias (Lutra Consulting) and Faunalia,https://www.lutraconsulting.co.uk,index.md
+3.2.0,Layer Legend,Copy&Paste Group/Layers from a QGIS project to another.,Not specified,,Salvatore Larosa,https://github.com/slarosa,index.md
+3.2.0,Processing,Improved 'Join by attribute table' algorithm,Not specified,,"Mathieu Pellerin, Nyall Dawson",http://www.imhere-asia.com/,index.md
+3.2.0,Processing,Load script from template,Not specified,,Matteo Ghetta (Faunalia),http://www.faunalia.eu/,index.md
+3.2.0,Processing,Feature filter algorithm for processing models,QGIS User Group Switzerland,https://qgis.ch,"Matthias Kuhn, OPENGIS.ch",https://opengis.ch,index.md
+3.2.0,Processing,Zonal histogram,Not specified,,Mathieu Pellerin,http://www.imhere-asia.com/,index.md
+3.2.0,Processing,"Port Union, Difference and Intersection algorithms to C++",InaSAFE DFAT,https://www.dfat.gov.au/,Martin Dobias (Lutra Consulting),https://www.lutraconsulting.co.uk,index.md
+3.2.0,Processing,'Project points (cartesian)' algorithm,Nyall Dawson (North Road),http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Processing,Dynamic parameter values for more algorithms,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Processing,Multi-ring buffer (constant distance) algorithm,Not specified,,Alex Bruy,,index.md
+3.2.0,Processing,"New ""segmentize"" algorithms",North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Processing,Option to create points on all polygon parts,Not specified,,Mathieu Pellerin,http://www.imhere-asia.com/,index.md
+3.2.0,Processing,Rotate Features algorithm,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Processing,"Line sinuosity in ""Add Geometry Attributes""",North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Processing,Import geotagged photos,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Processing,Swap x/y coordinate values algorithm,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Processing,"Sort order option for ""Add Incremental Field""",North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Processing,Indicator for distance parameter units,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Processing,Algorithm log can be saved/cleared/copied,SMEC/SJ,,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Processing,Wedge buffer algorithm,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Processing,Variable width buffers,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Processing,Reclassify raster algorithms,SMEC/SJ,,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Processing,Union algorithm with a single layer,InaSAFE DFAT,https://www.dfat.gov.au/,Martin Dobias (Lutra Consulting),https://www.lutraconsulting.co.uk/,index.md
+3.2.0,Application and Project Options,Mandatory layers in project,Arpa Piemonte (Dipartimento Tematico Geologia e Dissesto) within ERIKUS project,https://www.arpa.piemonte.it/,Martin Dobias (Lutra Consulting) and Faunalia,https://www.lutraconsulting.co.uk,index.md
+3.2.0,Application and Project Options,Saving and loading projects in PostgreSQL database,Arpa Piemonte (Dipartimento Tematico Geologia e Dissesto) within ERIKUS project,https://www.arpa.piemonte.it/,"Martin Dobias, Peter Petrik (Lutra Consulting) and Faunalia",https://www.lutraconsulting.co.uk,index.md
+3.2.0,Browser,Save/Load connections for XYZ Tiles,Not specified,,Salvatore Larosa,https://github.com/slarosa,index.md
+3.2.0,Browser,Project home path can be manually set,SMEC/SJ,,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Data Providers,Support for mesh layers,Not specified,,Peter Petrik and Martin Dobias (Lutra Consulting),https://www.lutraconsulting.co.uk,index.md
+3.2.0,Data Providers,Automatically set default style for layers for ArcGIS Feature Server layers,SMEC/SJ,,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Data Providers,Faster Oracle queries,North Road,http://north-road.com,Nyall Dawson (North Road),v,index.md
+3.2.0,Data Providers,Restrict table list for a Oracle database connection to a preset schema,Open Spatial,http://www.openspatial.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Data Providers,Read only support for curved Oracle geometries,Open Spatial,http://www.openspatial.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.2.0,Plugins,Adding query history in DB Manager,Not specified,,Salvatore Larosa,https://github.com/slarosa,index.md
+3.2.0,Plugins,DB Manager SQL execution in background,Not specified,,Paul Blottiere,,index.md
 3.20,General,Additional options for opening attribute tables,Not specified,,Raymond Nijssen,https://github.com/raymondnijssen,index.md
 3.20,General,Set size for all columns in attribute table,Not specified,,Ben Wirf,https://github.com/benwirf,index.md
 3.20,General,Export/import of authentication configurations made easy,Ville d'Yverdon-les-Bains,,Mathieu Pellerin,https://www.opengis.ch/,index.md
@@ -1521,6 +1594,83 @@ version,category,feature_name,funded_by,funded_by_link,developed_by,developed_by
 3.38,Notable Fixes,Bug fixes by Jacky Volpes (Oslandia),QGIS.ORG (through donations and sustaining memberships),https://qgis.org/,Jacky Volpes (Oslandia),https://oslandia.com/,index.md
 3.38,Notable Fixes,Bug fixes by Jean Felder (Oslandia),QGIS.ORG (through donations and sustaining memberships),https://qgis.org/,Jean Felder (Oslandia),https://oslandia.com/,index.md
 3.38,Notable Fixes,Bug fixes by Nyall Dawson (North Road),QGIS.ORG (through donations and sustaining memberships),https://qgis.org/,Nyall Dawson (North Road),https://north-road.com/,index.md
+3.4-LTR,General,Flatpak,Aleix Pol,https://github.com/aleixpol,Aleix Pol,https://github.com/aleixpol,index.md
+3.4-LTR,General,SVG files can be embedded in projects and symbols,SMEC/SJ,http://smec.com,Nyall Dawson,http://north-road.com,index.md
+3.4-LTR,General,OpenCL based acceleration,QGIS.org,http://qgis.org,Alessandro Pasotti,http://qgis.org,index.md
+3.4-LTR,Map Tools,Identify or select features based on existing polygon,Leicestershire County Council,,Peter Petrik (Lutra Consulting),https://www.lutraconsulting.co.uk/,index.md
+3.4-LTR,User Interface,Auto selection of exported files in file manager,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,User Interface,"New ""Open Directory"" option for disabled welcome page projects",North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,User Interface,UX Improvements for Temporary Scratch Layers,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,User Interface,Task manager improvements,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,User Interface,Hyperlinks to local vector & raster datasets in the information panel,iMhere Asia,http://www.imhere-asia.com/,Mathieu Pellerin,http://www.imhere-asia.com/,index.md
+3.4-LTR,User Interface,Style manager improvements,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,User Interface,Polished browser panel interface and experience,Not specified,,"Mathieu Pellerin (iMHere Asia), Nyall Dawson (North Road)",,index.md
+3.4-LTR,User Interface,QML chart and drawings widget,QGIS Project,https://qgis.org/,David Signer and Matthias Kuhn (OPENGIS.ch),http://www.opengis.ch,index.md
+3.4-LTR,Symbology,Mesh layer styling,Lutra Consulting,https://www.lutraconsulting.co.uk/,Peter Petrik (Lutra Consulting),https://www.lutraconsulting.co.uk/blog/2018/10/18/mdal/,index.md
+3.4-LTR,Symbology,Classify symmetric in graduated renderer,Not specified,,Not specified,,index.md
+3.4-LTR,Symbology,Partial QML export and import,qwat group,http://qwat.org/,Denis Rouzaud (OPENGIS.ch GmbH),http://www.opengis.ch,index.md
+3.4-LTR,3D Features,Improved navigation,QGIS community through crowd-funding,https://www.lutraconsulting.co.uk/crowdfunding/more-qgis-3d/,Martin Dobias (Lutra Consulting),https://www.lutraconsulting.co.uk/,index.md
+3.4-LTR,3D Features,Animation,QGIS community through crowd-funding,https://www.lutraconsulting.co.uk/crowdfunding/more-qgis-3d/,Martian Dobias (Lutra Consulting),https://www.lutraconsulting.co.uk/,index.md
+3.4-LTR,3D Features,Simple rendering of 3D linestrings,Lutra Consulting,https://www.lutraconsulting.co.uk/,Martin Dobias (Lutra Consulting),https://www.lutraconsulting.co.uk/,index.md
+3.4-LTR,3D Features,Identification map tool for 3D views,"Department of Environment, Land and Infrastructure Engineering (DIATI)",https://www.faunalia.eu/en/,Martin Dobias (Lutra Consulting) and Faunalia,https://www.lutraconsulting.co.uk/,index.md
+3.4-LTR,3D Features,Experimental Python API,Lutra Consulting,https://www.lutraconsulting.co.uk/,Martin Dobias (Lutra Consulting),https://www.lutraconsulting.co.uk/,index.md
+3.4-LTR,Print Layouts,3D map items,QGIS community through crowd-funding,https://www.lutraconsulting.co.uk/crowdfunding/more-qgis-3d/,Lutra Consulting,https://www.lutraconsulting.co.uk/,index.md
+3.4-LTR,Expressions,New expression functions and variables,Not specified,,"Etienne Trimaille, Matteo Ghetta, Matthias Kuhn, Mathieu Pellerin, Nyall Dawson",http://qgis.org,index.md
+3.4-LTR,Expressions,Code completion for expression builder,OPENGIS.ch,http://www.opengis.ch/,Matthias Kuhn (OPENGIS.ch),http://www.opengis.ch/,index.md
+3.4-LTR,Digitising,GPS tracking improvements,Andrea Rossi,https://github.com/rossia,Andrea Rossi,https://github.com/rossia,index.md
+3.4-LTR,Digitising,More angle choices in advanced digitizing dock,lbartoletti,https://github.com/lbartoletti,lbartoletti,https://github.com/lbartoletti,index.md
+3.4-LTR,Digitising,Vertex tool can work on the current layer only,Oslandia,https://oslandia.com,Paul Blottiere (Oslandia),https://oslandia.com/en/home-en/,index.md
+3.4-LTR,Digitising,Add reverse line maptools,OSLANDIA,https://oslandia.com,Loïc Bartoletti,https://github.com/lbartoletti,index.md
+3.4-LTR,Digitising,Geometry Precision,Kanton Solothurn,https://www.so.ch/verwaltung/bau-und-justizdepartement/amt-fuer-geoinformation/,Matthias Kuhn (OPENGIS.ch),http://www.opengis.ch,index.md
+3.4-LTR,Digitising,Automatically remove duplicate nodes,Kanton Solothurn,https://www.so.ch/verwaltung/bau-und-justizdepartement/amt-fuer-geoinformation/,Matthias Kuhn (OPENGIS.ch),http://www.opengis.ch,index.md
+3.4-LTR,Digitising,Check for geometry validity,Kanton Solothurn,https://www.so.ch/verwaltung/bau-und-justizdepartement/amt-fuer-geoinformation/,Matthias Kuhn (OPENGIS.ch),http://www.opengis.ch,index.md
+3.4-LTR,Digitising,Topology checks while editing,Kanton Solothurn,https://www.so.ch/verwaltung/bau-und-justizdepartement/amt-fuer-geoinformation/,Matthias Kuhn (OPENGIS.ch),http://www.opengis.ch,index.md
+3.4-LTR,Data Management,Translation of QGIS projects,QGIS Usergroup Switzerland and QGEP Project,https://www.qgis.ch/en,David Signer (OPENGIS.ch),http://www.opengis.ch/,index.md
+3.4-LTR,Data Management,Switch Attribute Table dock mode on demand,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,Data Management,New locator filter to search across all layers,Opengis.ch,http://www.opengis.ch/,Denis Rouzaud,http://www.opengis.ch/,index.md
+3.4-LTR,Data Management,Non-removable (required) layers highlighted in layer tree,Arpa Piemonte (Dipartimento Tematico Geologia e Dissesto) within ERIKUS project,https://www.arpa.piemonte.it/,Martin Dobias (Lutra Consulting) and Faunalia,https://www.lutraconsulting.co.uk/,index.md
+3.4-LTR,Data Management,Append raster layer to an existing Geopackage,Borys Jurgiel,https://github.com/borysiasty,Borys Jurgiel,https://github.com/borysiasty,index.md
+3.4-LTR,Forms and Widgets,Drill-down (cascading) forms in QGIS Value Relation Widgets,QGIS community through crowd-funding,https://north-road.com/drill-down-cascading-forms/,Alessandro Pasotti (with North Road),,index.md
+3.4-LTR,Processing,"New ""Edit in place"" mode",Crowdfunding campaign,https://north-road.com/edit-features-in-place-using-qgis-spatial-operations-campaign/,North Road,https://north-road.com,index.md
+3.4-LTR,Processing,Store models inside project,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,Processing,Sample Raster Values,Faunalia,https://www.faunalia.eu,Matteo Ghetta (Faunalia),https://www.faunalia.eu,index.md
+3.4-LTR,Processing,New 'Raster pixels to polygons' algorithm,SMEC/SJ,http://smec.com,Nyall Dawson,http://north-road.com,index.md
+3.4-LTR,Processing,K Means clustering algorithm,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,Processing,dbscan spatial clustering algorithm,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,Processing,Improved algorithms,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,Processing,Filter Vertices by M and Filter Vertices by Z algorithms,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,Processing,"""Array of Translated Features"" algorithm",North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,Processing,"""Array of offset (parallel) lines"" algorithm",North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,Processing,Choice of units for non degree/unknown distances,North Road,http://north-road.com,Nyall Dawson,http://north-road.com,index.md
+3.4-LTR,Processing,"""Drape features to z/m"" algorithms",North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,Processing,"""Raster pixels to points"" algorithm",North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,Processing,Line substring algorithm,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,Processing,"""Interpolate point on line"" algorithm",North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,Processing,k-neighbour concave hull,Not specified,,"Detlev Neumann, Rudi von Staden",http://qgis.org,index.md
+3.4-LTR,Processing,Python scripts which implement algorithms now execute the algorithm on drag and drop and browser double click,iMhere Asia,http://www.imhere-asia.com/,Mathieu Pellerin,http://www.imhere-asia.com/,index.md
+3.4-LTR,Processing,New GDAL's rearrange band algorithm,iMHere Asia,http://www.imhere-asia.com/,Mathieu Pellerin,http://www.imhere-asia.com/,index.md
+3.4-LTR,Processing,"""Precalculated"" values for model algorithm parameters",QGIS,http://qgis.org,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,Processing,"""Categorize a layer using a style XML file"" algorithm",North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,Processing,New mode for Snap geometries algorithm,InaSAFE DFAT,https://www.dfat.gov.au/,Martin Dobias (Lutra Consulting),https://www.lutraconsulting.co.uk/,index.md
+3.4-LTR,Data Providers,OAuth2 authentication method plugin,Monsanto Company,https://monsanto.com/,"Larry Shaffer, Alessandro Pasotti",http://qgis.org,index.md
+3.4-LTR,Data Providers,Mesh layer: New mesh layer format support,Lutra Consulting,https://www.lutraconsulting.co.uk/blog/2018/10/18/mdal/,Lutra Consulting,https://www.lutraconsulting.co.uk/,index.md
+3.4-LTR,Data Providers,Mesh layer: add function to identify value on mesh layers,Lutra Consulting,https://www.lutraconsulting.co.uk/,Lutra Consulting,https://www.lutraconsulting.co.uk/,index.md
+3.4-LTR,Data Providers,Mesh layer: allow to choose different vector and scalar dataset,Lutra Consulting,https://www.lutraconsulting.co.uk/,Lutra Consulting,https://www.lutraconsulting.co.uk/,index.md
+3.4-LTR,Data Providers,Mesh layer: allow render vectors/arrows on the user-defined grid,Lutra Consulting,https://www.lutraconsulting.co.uk/,Lutra Consulting,https://www.lutraconsulting.co.uk/,index.md
+3.4-LTR,Data Providers,JSON/JSONB Type support,Kanton Solothurn,https://www.so.ch/verwaltung/bau-und-justizdepartement/amt-fuer-geoinformation/,David Signer (OPENGIS.ch),http://www.opengis.ch,index.md
+3.4-LTR,Data Providers,ESRI Token Authentication support,Not specified,,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,Data Providers,SQL Server - Invalid geometry handling,Not specified,,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,QGIS Server,Server Cache can be manage by plugins,Not specified,,Not specified,,index.md
+3.4-LTR,QGIS Server,WMTS 1.0.0 support,Ifremer,https://wwz.ifremer.fr/,3Liz,https://3liz.com,index.md
+3.4-LTR,QGIS Server,Add ability to define min. scale for WMTS,Not specified,,Not specified,,index.md
+3.4-LTR,QGIS Server,Support QGIS Server logs to stderr,OSLANDIA,https://oslandia.com,Eric Lemoine,https://github.com/elemoine,index.md
+3.4-LTR,Plugins,Support for encrypted zips in the Plugin Manager,Borys Jurgiel,https://github.com/borysiasty,Borys Jurgiel,https://github.com/borysiasty,index.md
+3.4-LTR,Plugins,Offline Editing GeoPackage,Oester Messtechnik,https://messtechnik.ch/,David Signer (OPENGIS.ch),http://www.opengis.ch,index.md
+3.4-LTR,Programmability,QgsSpatialIndexKDBush,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,Programmability,QgsRasterDataProvider::sample method for efficient sampling of rasters at a given point,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,Programmability,New geometry API call to return a curve substring,North Road,http://north-road.com,Nyall Dawson (North Road),http://north-road.com,index.md
+3.4-LTR,Programmability,sip Module API Changes,Not specified,,Not specified,,index.md
+3.4-LTR,Programmability,Python vector data providers,Good will,,Alessandro Pasotti,,index.md
 3.40,Map Tools,Respect layer/project vert datum in identify results,Not specified,,Nyall Dawson,https://github.com/nyalldawson,index.md
 3.40,Map Tools,Present referencing relations in info tool,Not specified,,Even Rouault,https://github.com/rouault,index.md
 3.40,User Interface,Optionally autosize all columns by default when opening an attribute table,Not specified,,Ben Wirf,https://github.com/benwirf,index.md

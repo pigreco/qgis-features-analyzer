@@ -1,1 +1,21 @@
-qgis_downloads/
+# Downloaded ZIP files
+data/qgis_downloads/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
