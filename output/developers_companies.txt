@@ -1,0 +1,400 @@
+======================================================================
+SVILUPPATORI E AZIENDE ASSOCIATE
+======================================================================
+
+👤 3Liz
+   🏢 Ifremer
+
+👤 3liz
+   🏢 Ifremer
+
+👤 Aleix Pol
+   🏢 Aleix Pol
+
+👤 Alessandro Pasotti
+   🏢 **ARPA Piemonte**
+   🏢 A.R.P.A. Piemonte
+   🏢 ARPA Piemonte
+   🏢 Alessandro Pasotti - ItOpen
+   🏢 Boundless
+   🏢 ChartWorld International
+   🏢 Christmas Holidays Inc.
+   🏢 City of Freiburg im Breisgau
+   🏢 Comune di Roma
+   🏢 Consorzio della Bonifica Renana
+   🏢 GISCE TI
+   🏢 Geoinformatikbüro Dassau GmbH
+   🏢 Gis3W
+   🏢 Good will
+   🏢 Kanton Solothurn
+   🏢 Kanton Solothurn, Amt für Geoinformation
+   🏢 Kristianstadt
+   🏢 NOAA
+   🏢 NOAA OCS Hydrography
+   🏢 North Road
+   🏢 QCooperative
+   🏢 QGIS
+   🏢 QGIS.ORG donors and sponsors
+   🏢 QGIS.org
+   🏢 Salvatore Fiandaca
+   🏢 Stadt Freiburg im Breisgau
+   🏢 Summer is getting warmer and warmer.
+   🏢 Zweckverband Grevesmühlen
+   🏢 itOpen / qcooperative
+   🏢 with North Road
+
+👤 Alex Bruy
+   🏢 LutraConsulting
+
+👤 Alexander Bruy
+   🏢 Mergin Maps
+   🏢 NaturalGIS
+   🏢 QCooperative
+   🏢 QGIS.ORG donors and sponsors
+
+👤 Andrea Rossi
+   🏢 Andrea Rossi
+
+👤 Antoine Facchini
+   🏢 Métropole Européenne de Lille
+   🏢 Métropole Européenne de Lille @Jean-Roc
+
+👤 Belgacem Nedjima
+   🏢 Lutra Consulting
+
+👤 Borys Jurgiel
+   🏢 Borys Jurgiel
+
+👤 Clemens Raffler
+   🏢 Clemens Raffler
+
+👤 Damiano Lombardi
+   🏢 Canton of Luzern
+   🏢 Canton of Solothurn
+   🏢 Kanton Glarus
+   🏢 Swiss QGIS user group
+   🏢 the Swiss QGIS User Group
+
+👤 David Koňařík
+   🏢 Swiss QGIS user group
+
+👤 David Marteau
+   🏢 3Liz
+   🏢 Kristianstads kommun
+
+👤 David Signer
+   🏢 OPENGIS
+   🏢 OPENGIS.ch
+
+👤 David Signer and Matthias Kuhn
+   🏢 OPENGIS.ch
+
+👤 Denis Rouzaud
+   🏢 GEM foundation
+   🏢 OPENGIS.ch
+   🏢 OPENGIS.ch GmbH
+   🏢 Opengis.ch
+   🏢 QGIS Swiss user group
+   🏢 QGIS.ORG donors and sponsors
+
+👤 Eric Lemoine
+   🏢 OSLANDIA
+
+👤 Etienne Trimaille
+   🏢 3Liz
+   🏢 Kartoza
+
+👤 Even Rouault
+   🏢 QGIS user group Germany
+   🏢 QGIS-DE user group
+   🏢 QGIS.ORG donors and sponsors
+   🏢 Spatialys
+
+👤 Germap
+   🏢 the city of Bern
+
+👤 Germán Carrillo
+   🏢 City of Frankfurt – Stadtplanungsamt
+   🏢 OPENGIS
+   🏢 OPENGIS.ch
+   🏢 SwissTierras Colombia
+   🏢 Ville de Pully (Switzerland)
+   🏢 the Danish Nature Agency, Naturstyrelsen
+   🏢 the QGIS user group Switzerland
+
+👤 Hannes
+   🏢 WhereGroup GmbH.
+
+👤 Hugo Mercier
+   🏢 Oslandia
+   🏢 QGIS.ORG donors and sponsors
+
+👤 Håvard Tveite (NMBU) and Matteo Ghetta
+   🏢 Faunalia
+
+👤 Ismail Sunni
+   🏢 Camptocamp
+   🏢 Google Summer of Code Program
+   🏢 camptocamp
+
+👤 Jacky Volpes
+   🏢 Métropole Grand Lyon\*\*
+   🏢 Métropole de Lille
+   🏢 Oslandia
+   🏢 QGIS (Grant OpenSource 2023) and Oslandia
+
+👤 Jan Caha
+   🏢 Ocean Winds
+
+👤 Jean Felder
+   🏢 BRGM
+   🏢 CEA/DAM, CP4SC, Oslandia
+   🏢 Ifremer
+   🏢 Oslandia
+   🏢 Stadt Frankfurt am Main
+
+👤 Juho Ervasti
+   🏢 the National Land Survey of Finland.
+
+👤 Julien Cabieces
+   🏢 Bordeaux Metropole
+   🏢 Bordeaux Métropôle
+   🏢 Bordeaux Métrôpole\*\*
+   🏢 Eurométropole de Strasbourg
+   🏢 Ifremer
+   🏢 Lille Metropole
+   🏢 Metropole de Lille
+   🏢 Métropôle de Bordeaux
+   🏢 Oslandia
+   🏢 QGIS.ORG donors and sponsors
+   🏢 Stadt Frankfurt am Main and Oslandia
+   🏢 Stadt Frankfurt am Main and Oslandia\*\*
+
+👤 Jürgen Fischer
+   🏢 QGIS.ORG donors and sponsors
+
+👤 Jürgen Fischer in collaboration with Matthias Kuhn
+   🏢 Kanton Schaffhausen
+
+👤 Larry Shaffer, Alessandro Pasotti
+   🏢 Monsanto Company
+
+👤 Loïc Bartoletti
+   🏢 Métropole Européenne de Lille @Jean-Roc
+   🏢 OSLANDIA
+   🏢 Orange Telecom FR
+   🏢 Oslandia
+   🏢 QGIS.ORG (through GRANT)
+   🏢 QGIS.ORG donors and sponsors
+
+👤 Luigi Pirelli and GeoSolutions
+   🏢 OSGeo UK, GeoServer PSC, Brad Hards
+
+👤 Lutra Consulting
+   🏢 Martin Dobias
+   🏢 Nedjima Belgacem
+   🏢 Peter Petrik
+   🏢 Stefanos Natsis
+   🏢 Viktor Sklencar
+   🏢 Vincent Cloarec
+
+👤 Marco Bernasocchi
+   🏢 OPENGIS.ch
+
+👤 Marco Hugentobler
+   🏢 Kanton Zug, Amt für Geoinformation
+   🏢 Kanton of Zug
+
+👤 Martian Dobias
+   🏢 Lutra Consulting
+
+👤 Martin Dobias
+   🏢 Lutra Consulting
+   🏢 LutraConsulting
+   🏢 Natural Resources Canada
+   🏢 QGIS user group Germany
+   🏢 QGIS.org grant.
+   🏢 d.b.g. Datenbankgesellschaft mbH
+
+👤 Martin Dobias, Peter Petrik
+   🏢 Lutra Consulting
+
+👤 Matej Bagar
+   🏢 Klimadatastyrelsen
+   🏢 Septima, Klimadatastyrelsen
+
+👤 Mathieu Pellerin
+   🏢 Andreas Neumann (partial funding)
+   🏢 Funded by the QGIS user group Switzerland
+   🏢 Hansestadt Herford
+   🏢 Kanton Schaffhausen
+   🏢 Kanton Zug - Amt für Raum und Verkehr (ARV)
+   🏢 OPENGIS
+   🏢 OPENGIS.ch
+   🏢 OpenGIS.ch
+   🏢 QGIS user group Switzerland
+   🏢 Sevenson Environmental Services
+   🏢 SwissTierras Colombia
+   🏢 TEKSI
+   🏢 Ville d'Yverdon-les-Bains
+   🏢 iMHere Asia
+   🏢 iMhere Asia
+
+👤 Mathieu Pellerin (iMHere Asia), Nyall Dawson
+   🏢 North Road
+
+👤 Mathieu Pellerin, Alexander Bury, Paul Blottiere
+   🏢 QWAT group, http://www.imhere-asia.com/
+
+👤 Matteo Ghetta
+   🏢 Faunalia
+
+👤 Matthias Kuhn
+   🏢 DB Fahrwegdienste GmbH
+   🏢 OPENGIS.ch
+   🏢 Opengis.ch
+
+👤 Muhammad Yarjuna Rohmat
+   🏢 Kartoza
+
+👤 Nathan Woodrow
+   🏢 Technology One
+
+👤 Nedjima Belgacem
+   🏢 Lutra Consulting
+
+👤 Nyall Dawson
+   🏢 Alta Ehf
+   🏢 Andreas Neumann
+   🏢 Andrew Fletcher.
+   🏢 BRGM and Water4All Partnership
+   🏢 Canton de Neuchâtel
+   🏢 City of Canning
+   🏢 City of Freiburg im Breisgau
+   🏢 Dorset Council
+   🏢 FLYGHT7
+   🏢 Fisel + König
+   🏢 Hans van der Kwast
+   🏢 Kanton Solothurn
+   🏢 Middle Third Geological
+   🏢 NIBIO
+   🏢 NIWA
+   🏢 Natural resources Canada Contract: 3000720411
+   🏢 Natural resources Canada Contract: 3000720707
+   🏢 North Road
+   🏢 North Road / SLYR
+   🏢 North Road Consulting
+   🏢 North Road, thanks to SLYR
+   🏢 North Road, thanks to SLYR!
+   🏢 OSGEO UK
+   🏢 Provincie Gelderland
+   🏢 Provincie Zuid-Holland
+   🏢 QGIS Community Crowdfunding Efforts
+   🏢 QGIS Denmark user-group
+   🏢 QGIS Sponsors and Donors
+   🏢 QGIS Swiss User Group
+   🏢 QGIS User Group Denmark
+   🏢 QGIS User Group Germany
+   🏢 QGIS grant program 2025
+   🏢 QGIS.ORG donors and sponsors
+   🏢 QTIBIA Engineering
+   🏢 Regiodata
+   🏢 Rubicon Concierge Real Estate
+   🏢 Rubicon Concierge Real Estate Services
+   🏢 République et canton de Genève
+   🏢 SLYR
+   🏢 SMEC/SJ
+   🏢 SRK Consulting
+   🏢 Stadt Zürich
+   🏢 Swiss QGIS user group
+   🏢 Toitū Te Whenua Land Information New Zealand
+   🏢 University of Uppsala
+   🏢 for Kartoza
+   🏢 geoProRegio AG
+   🏢 the Swiss QGIS User Group
+   🏢 the Swiss QGIS User group
+   🏢 the Swiss QGIS user group
+   🏢 the Swiss QGIS user group.
+
+👤 Nyall Dawson (North Road) & Mathieu Pellerin
+   🏢 iMHere Asia
+
+👤 Nyall Dawson, Mathieu Pellerin
+   🏢 SMEC/SJ
+
+👤 Olivier Dalang
+   🏢 Kanton Solothurn and Land Vorarlberg
+   🏢 OPENGIS.ch
+   🏢 Swiss QGIS User Group
+   🏢 Swiss QGIS user group
+
+👤 Paul Blottiere
+   🏢 Hytech-imaging
+   🏢 Oslandia
+
+👤 Peter Petrik
+   🏢 Limerick City and County Council
+   🏢 Lutra Consulting
+   🏢 QGIS.ORG donors and sponsors
+
+👤 Peter Petrik and Martin Dobias
+   🏢 Lutra Consulting
+
+👤 Peter Petrik, Martin Dobias
+   🏢 Lutra Consulting Ltd.
+
+👤 René-Luc D'Hont
+   🏢 3Liz
+
+👤 Samweli Mwakisambwe
+   🏢 Kartoza
+
+👤 Sandro Santilli
+   🏢 strk
+
+👤 Stefanos Natsis
+   🏢 Lutra Consulting
+   🏢 LutraConsulting
+   🏢 QGIS Community Crowdfunding Efforts
+   🏢 State of Vorarlberg and Swiss QGIS user group
+
+👤 Uroš Preložnik
+   🏢 level2
+
+👤 Valentin Buira
+   🏢 Hauts-de-France
+
+👤 Victor Olaya
+   🏢 QGIS.ORG donors and sponsors
+
+👤 Vincent Cloarec
+   🏢 KoBold Metals
+   🏢 Lutra Consulting
+   🏢 QGIS Community Crowdfunding Efforts
+
+👤 ZayneTomlins
+   🏢 North Road
+
+👤 lbartoletti
+   🏢 lbartoletti
+
+👤 mhugent
+   🏢 Canton of Glarus
+   🏢 Stadtwerke München
+
+👤 rldhont
+   🏢 3Liz
+   🏢 3liz
+   🏢 Ifremer
+
+👤 signedav
+   🏢 Kanton Schaffhausen
+
+👤 Étienne Trimaille
+   🏢 3Liz
+   🏢 3liz.com
+   🏢 Ifremer
+
+======================================================================
+Totale sviluppatori identificati: 73
+======================================================================

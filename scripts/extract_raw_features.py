@@ -24,6 +24,28 @@ import csv
 DOWNLOAD_DIR = "data/qgis_downloads"
 OUTPUT_CSV = "output/qgis_features_raw.csv"
 
+def extract_version_from_filename(zip_filename):
+    """
+    Extract the QGIS version from a changelog ZIP filename.
+    Handles both naming conventions:
+    - qgis_3.44_changelog.zip -> 3.44
+    - qgis_3.4-LTR_changelog.zip -> 3.4-LTR
+    - QGIS-4.2.zip -> 4.2
+
+    Estrae la versione di QGIS dal nome del file ZIP del changelog,
+    gestendo entrambe le convenzioni di naming.
+    """
+    name = zip_filename
+    # Convenzione storica: qgis_<versione>_changelog.zip
+    if name.lower().startswith('qgis_') and name.lower().endswith('_changelog.zip'):
+        return name[len('qgis_'):-len('_changelog.zip')]
+    # Nuova convenzione: QGIS-<versione>.zip
+    match = re.match(r'^qgis[_-]v?(.+?)(?:_changelog)?\.zip$', name, re.IGNORECASE)
+    if match:
+        return match.group(1)
+    # Fallback: rimuovi solo l'estensione
+    return re.sub(r'\.zip$', '', name, flags=re.IGNORECASE)
+
 def extract_md_from_zip(zip_path):
     """Extract the content of .md files from a ZIP archive"""
     md_contents = []
@@ -64,6 +86,9 @@ def clean_markdown_links(text):
     text = re.sub(r'<[^>]+>', '', text)
     # Remove remaining square brackets
     text = text.replace('[', '').replace(']', '')
+    # Remove Markdown emphasis markers and their escaped form (** __ \* \_)
+    text = re.sub(r'\\([*_])', r'\1', text)  # unescape \* -> * , \_ -> _
+    text = re.sub(r'[*_]{1,3}', '', text)    # drop remaining * / _ emphasis
     # Clean multiple spaces
     text = re.sub(r'\s+', ' ', text)
     return text.strip()
@@ -262,7 +287,7 @@ def process_all_zips():
         zip_path = os.path.join(DOWNLOAD_DIR, zip_filename)
         
         # Extract version name from filename
-        version = zip_filename.replace('qgis_', '').replace('_changelog.zip', '')
+        version = extract_version_from_filename(zip_filename)
         
         print(f"\n📦 Processing: {zip_filename}")
         print(f"   Version: {version}")

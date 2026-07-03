@@ -27,29 +27,29 @@ COMPANY-DEVELOPER MAPPING VALIDATION REPORT
 🏢 Lutra Consulting
    ✓ Martin Dobias (41 features)
    ✓ Peter Petrik (19 features)
-   ✓ Stefanos Natsis (16 features)
+   ✓ Stefanos Natsis (17 features)
 
 🏢 North Road
    ✓ Nyall Dawson (367 features)
 
 🏢 OPENGIS.ch
    ✓ Matthias Kuhn (20 features)
-   ✓ David Signer (13 features)
+   ✓ David Signer (14 features)
    ✓ Mathieu Pellerin (5 features)
-   ✓ Germán Carrillo (3 features)
-   ✓ Denis Rouzaud (2 features)
+   ✓ Germán Carrillo (4 features)
+   ✓ Denis Rouzaud (3 features)
    ✓ Marco Bernasocchi (1 features)
 
 🏢 Oslandia
-   ✓ Julien Cabieces (12 features)
-   ✓ Loïc Bartoletti (10 features)
+   ✓ Julien Cabieces (13 features)
+   ✓ Loïc Bartoletti (11 features)
 
 🏢 QCooperative
-   ✓ Alessandro Pasotti (7 features)
+   ✓ Alessandro Pasotti (8 features)
    ✓ Alexander Bruy (2 features)
 
 🏢 Spatialys
-   ✓ Even Rouault (8 features)
+   ✓ Even Rouault (9 features)
 
 ======================================================================
 ❓ DEVELOPERS NOT IN REFERENCE DATA

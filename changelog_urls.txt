@@ -2,6 +2,8 @@
 # Formato: un URL per riga
 # Le righe che iniziano con # sono commenti e vengono ignorate
 
+https://changelog.qgis.org/en/version/4.2/md/
+https://changelog.qgis.org/en/version/4.0/md/
 https://changelog.qgis.org/en/version/3.44/md/
 https://changelog.qgis.org/en/version/3.42/md/
 https://changelog.qgis.org/en/version/3.40/md/
